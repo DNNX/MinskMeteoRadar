@@ -2,23 +2,23 @@ body {
 	margin: 0px;
 	background-image: url(preview.gif);
 	background-repeat: no-repeat;
-    width = 640px;
-    height =496px;
+    width = 654px;
+    height =479px;
 	font-family: Verdana, Arial, Helvetica, Univers, sans-serif;
 }
 
 body.settings { 
 	background-image: none;
-    width: 640px;
-    height: 496px;
+    width: 654px;
+    height: 479px;
 }
 
 .layer {
 	position: absolute;
 	margin-left: 0px;
 	margin-top: 0px;
-    width: 640px;
-    height: 496px;
+    width: 654px;
+    height: 479px;
     border: 0px;
 }
 
