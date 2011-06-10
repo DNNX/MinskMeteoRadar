@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<gadget>
+    <name>Airport Minsk MeteoRadar</name>
+    <namespace>mrl2</namespace>
+    <version>1.0</version>
+    <author name="based on webcam gadget (c) Walter Stucki, Oekosoft">
+        <info url="http://www.oekosoft.ch" />
+    </author>
+    <copyright>2010</copyright>
+    <description>Displays live webcam icon in the windows sidebar. Configurable url and refresh rate.</description>
+    	<icons>
+		    <icon src="preview.gif" />
+	    </icons>
+    <hosts>
+        <host name="sidebar">
+            <base type="HTML" apiVersion="1.0.0" src="webcam.html" />
+            <permissions>full</permissions>
+            <platform minPlatformVersion="0.3" />
+        </host>
+    </hosts>
+</gadget>
