@@ -12,7 +12,7 @@ function pageLoad() {
          
     var myurl = System.Gadget.Settings.readString("webCamUrl");
     if (myurl == "") {
-          myurl = 'http://www.pogoda.by/data/meteo/nx.php?type=J';
+          myurl = 'http://meteoinfo.by/radar/UMMN/UMMN_latest.png';
           System.Gadget.Settings.writeString("webCamUrl", myurl);
     }
     myurl = myurl+"?"+new Date().getTime();
